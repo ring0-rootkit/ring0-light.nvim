@@ -10,4 +10,4 @@
 
 -- vim.api.nvim_create_user_command("ring0lightTest", R, {})
 
-require("colors.ring0-light").load()
+require("ring0-light").load()
