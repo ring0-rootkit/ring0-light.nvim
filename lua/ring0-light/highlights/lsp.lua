@@ -17,9 +17,9 @@ M.highlights.diagnostic_error = Highlight.new("DiagnosticError", { link = ring0_
 M.highlights.diagnostic_sign_error = Highlight.new("DiagnosticSignError", { link = ring0_hl.red_sign })
 M.highlights.diagnostic_underline_error = Highlight.new("DiagnosticUnderlineError", { link = ring0_hl.red_underline })
 
-M.highlights.diagnostic_warn = Highlight.new("DiagnosticWarn", { link = ring0_hl.yellow_bold })
-M.highlights.diagnostic_sign_warn = Highlight.new("DiagnosticSignWarn", { link = ring0_hl.yellow_sign })
-M.highlights.diagnostic_underline_warn = Highlight.new("DiagnosticUnderlineWarn", { link = ring0_hl.yellow_underline })
+M.highlights.diagnostic_warn = Highlight.new("DiagnosticWarn", { link = ring0_hl.primary_bold })
+M.highlights.diagnostic_sign_warn = Highlight.new("DiagnosticSignWarn", { link = ring0_hl.primary_sign })
+M.highlights.diagnostic_underline_warn = Highlight.new("DiagnosticUnderlineWarn", { link = ring0_hl.primary_underline })
 
 M.highlights.diagnostic_info = Highlight.new("DiagnosticInfo", { link = ring0_hl.green_bold })
 M.highlights.diagnostic_sign_info = Highlight.new("DiagnosticSignInfo", { link = ring0_hl.green_sign })

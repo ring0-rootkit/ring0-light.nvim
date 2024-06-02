@@ -77,7 +77,7 @@ M.highlights.float = Highlight.new("@float", { link = vim_hl.float })
 ---Function definitions
 M.highlights.func = Highlight.new("@function", { link = vim_hl.func })
 ---Built-in functions
-M.highlights.func_builtin = Highlight.new("@function.builtin", { link = ring0_hl.yellow })
+M.highlights.func_builtin = Highlight.new("@function.builtin", { link = ring0_hl.primary })
 ---Function calls
 -- M.highlights.func_call = Highlight.new("@function.call", {})
 ---Preprocessor macros
@@ -107,7 +107,7 @@ M.highlights.keyword = Highlight.new("@keyword", { link = vim_hl.keyword })
 -- M.highlights.keyword_return = Highlight.new("@keyword.return", {})
 
 ---keywords related to conditionals (e.g. `if` / `else`)
-M.highlights.conditional = Highlight.new("@conditional", { fg = c.yellow })
+M.highlights.conditional = Highlight.new("@conditional", { fg = c.primary })
 ---ternary operator (e.g. `?` / `:`)
 M.highlights.conditional_ternary = Highlight.new("@conditional.ternary", {})
 
@@ -127,7 +127,7 @@ M.highlights.label = Highlight.new("@label", { link = vim_hl.label })
 ---type or class definitions and annotations
 M.highlights.type = Highlight.new("@type", { link = vim_hl.type })
 ---built-in types
-M.highlights.type_builtin = Highlight.new("@type.builtin", { link = ring0_hl.yellow })
+M.highlights.type_builtin = Highlight.new("@type.builtin", { link = ring0_hl.primary })
 ---type definitions (e.g. `typedef` in C)
 M.highlights.type_definition = Highlight.new("@type.definition", { link = vim_hl.typedef })
 ---type qualifiers (e.g. `const`)
@@ -148,12 +148,12 @@ M.highlights.property = Highlight.new("@property", { link = ring0_hl.dark_niagar
 ---various variable names
 M.highlights.variable = Highlight.new("@variable", { link = vim_hl.identifier })
 ---built-in variable names (e.g. `this`)
-M.highlights.variable_builtin = Highlight.new("@variable.builtin", { link = ring0_hl.yellow })
+M.highlights.variable_builtin = Highlight.new("@variable.builtin", { link = ring0_hl.primary })
 
 ---constant identifiers
 M.highlights.constant = Highlight.new("@constant", { link = vim_hl.constant })
 ---built-in constant values
-M.highlights.constant_builtin = Highlight.new("@constant.builtin", { link = ring0_hl.yellow })
+M.highlights.constant_builtin = Highlight.new("@constant.builtin", { link = ring0_hl.primary })
 ---constants defined by the preprocessor
 M.highlights.constant_macro = Highlight.new("@constant.macro", { link = vim_hl.define })
 
@@ -189,7 +189,7 @@ M.highlights.text_uri = Highlight.new("@text.uri", { fg = c.niagara, underline =
 ---text indicating the type of an environment
 -- M.highlights.text_environment_name = Highlight.new("@text.environment.name", {})
 ---text references, footnotes, citations, etc.
-M.highlights.text_reference = Highlight.new("@text.reference", { link = ring0_hl.yellow_bold })
+M.highlights.text_reference = Highlight.new("@text.reference", { link = ring0_hl.primary_bold })
 
 ---todo notes
 M.highlights.text_todo = Highlight.new("@text.todo", { link = vim_hl.todo })
