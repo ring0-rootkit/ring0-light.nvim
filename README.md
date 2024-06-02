@@ -2,6 +2,9 @@
 
 ## Installation
 
+# Screenshot
+![image](https://github.com/ring0-rootkit/ring0-light.nvim/assets/111735837/94960327-034d-4704-92b5-52754bbe7e70)
+
 ### Lazy (recommended)
 
 ```lua
