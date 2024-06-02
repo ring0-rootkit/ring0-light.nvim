@@ -1,9 +1,13 @@
-# ring0-light.nvim
+# kitty ring0-light
 
-## Installation
+Also you can get kitty ring0-light theme
+https://github.com/ring0-rootkit/ring0-light-kitty
 
 # Screenshot
 ![image](https://github.com/ring0-rootkit/ring0-light.nvim/assets/111735837/94960327-034d-4704-92b5-52754bbe7e70)
+
+
+## Installation
 
 ### Lazy (recommended)
 
