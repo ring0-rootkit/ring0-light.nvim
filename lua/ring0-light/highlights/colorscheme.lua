@@ -41,10 +41,13 @@ M.highlights.green = Highlight.new("ring0lightGreen", { fg = c.green })
 M.highlights.green_bold = Highlight.new("ring0lightGreenBold", { fg = c.green, bold = opts.bold })
 
 M.highlights.yellow = Highlight.new("ring0lightYellow", { fg = c.yellow })
-M.highlights.yellow = Highlight.new("ring0lightYellowBold", { fg = c.yellow, bold = opts.bold })
+M.highlights.yellow_bold = Highlight.new("ring0lightYellowBold", { fg = c.yellow, bold = opts.bold })
 
 M.highlights.brown = Highlight.new("ring0lightBrown", { fg = c.brown })
 M.highlights.brown_bold = Highlight.new("ring0lightBrownBold", { fg = c.brown, bold = opts.bold })
+
+M.highlights.primary = Highlight.new("ring0lightPrimary", { fg = c.primary })
+M.highlights.primary_bold = Highlight.new("ring0lightPrimaryBold", { fg = c.primary, bold = opts.bold })
 
 M.highlights.quartz = Highlight.new("ring0lightQuartz", { fg = c.quartz })
 M.highlights.quartz_bold = Highlight.new("ring0lightQuartzBold", { fg = c.quartz, bold = opts.bold })
