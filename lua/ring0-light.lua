@@ -1,4 +1,4 @@
-local config = require("ring0-ligt.config")
+local config = require("ring0-light.config")
 
 local M = {}
 
@@ -16,7 +16,7 @@ local function create_autocmds()
 		group = ring0_light_group,
 		pattern = "*",
 		callback = function()
-			require("colors.ring0-light").on_colorscheme()
+			require("ring0-light").on_colorscheme()
 		end,
 	})
 
