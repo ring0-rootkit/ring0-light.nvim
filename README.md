@@ -77,4 +77,4 @@ For example, with [Lazy](https://github.com/folke/lazy.nvim.git)...
 These repositories were great knowledge sources and their
 inspiration helped immensely with the development of this plugin.
 
-[gruber-darker-vim]: https://github.com/drsooch/gruber-darker-vim
+[gruber-darker-vim](https://github.com/drsooch/gruber-darker-vim)
