@@ -27,7 +27,7 @@ M = {
 	niagara = Color.new(0x2a7abd),
 	wisteria = Color.new(0x895ae8),
 
-	primary = Color.new(0x0000fc),
+	primary = Color.new(0x1010fc),
 }
 
 return M
