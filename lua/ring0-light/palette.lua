@@ -18,14 +18,14 @@ M = {
 	["red-1"] = Color.new(0xff4500),
 	red = Color.new(0xff4500),
 	["red+1"] = Color.new(0xff4f58),
-	green = Color.new(0x32cd32),
+	green = Color.new(0x25b825),
 	yellow = Color.new(0xffcc00),
 	brown = Color.new(0xcc8c3c),
 	quartz = Color.new(0x40e0d0),
 	["niagara-2"] = Color.new(0x303540),
 	["niagara-1"] = Color.new(0xb0b0b0),
-	niagara = Color.new(0x4682b4),
-	wisteria = Color.new(0x9370db),
+	niagara = Color.new(0x2a7abd),
+	wisteria = Color.new(0x895ae8),
 
 	primary = Color.new(0xf28c28),
 }
