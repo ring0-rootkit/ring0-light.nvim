@@ -1,84 +1,23 @@
-# kitty ring0-light
+# About
+This neovim theme is heavily inspired by [gruber-darker](https://github.com/rexim/gruber-darker-theme) theme
+but I wanted to only highlight keywords with the same color pallete as (cattpuccin latte)[https://catppuccin.com/palette].
 
-Also you can get kitty ring0-light theme
-https://github.com/ring0-rootkit/ring0-light-kitty
+This theme highlights only **keywords**, **string literals** and **comments**
 
-# Screenshot
-![image](https://github.com/ring0-rootkit/ring0-light.nvim/assets/111735837/94960327-034d-4704-92b5-52754bbe7e70)
+# Sceenshots
 
-
-## Installation
-
-### Lazy (recommended)
-
-```lua
-{ "ring0-rootkit/ring0-light.nvim" }
+# Installation
+Lazy:
 ```
-
-### Packer
-
-```lua
-use "ring0-rootkit/ring0-light.nvim"
-```
-
-### Plug
-
-```vim
-Plug 'ring0-rootkit/ring0-light.nvim'
-```
-
-Then, somewhere in your `init.lua`, set the colorscheme
-
-```lua
-vim.cmd.colorscheme("ring0-light")
-```
-
-## Configuration
-
-### Defaults
-
-```lua
 {
-  bold = true,
-  invert = {
-    signs = false,
-    tabline = false,
-    visual = false,
-  },
-  italic = {
-    strings = true,
-    comments = true,
-    operators = false,
-    folds = true,
-  },
-  undercurl = true,
-  underline = true,
-}
+    "ring0-rootkit/ring0-light.nvim",
+    priority = 1000, -- Make sure to load this before all the other start plugins.
+    init = function()
+        vim.cmd.colorscheme("ring0light")
+    end,
+},
 ```
 
-### With updated preferences
-
-Change configuration options by calling `setup()`
-prior to loading the colorscheme. Your preferences
-will be merged with the defaults.
-
-For example, with [Lazy](https://github.com/folke/lazy.nvim.git)...
-
-```lua
-{
-  "ring0-rootkit/ring0-light.nvim",
-  opts = {
-    bold = false,
-    italic = {
-      strings = false,
-    },
-  },
-}
-```
-
-## Credits
-
-These repositories were great knowledge sources and their
-inspiration helped immensely with the development of this plugin.
-
-[gruber-darker-vim](https://github.com/drsooch/gruber-darker-vim)
+# Note
+This plugin is really simple, feel free to fork it and change colors however you want, or maybe even send your pull request to make this theme better.
+P.S.: if you want to know what color type specific word has just put your cursor on the word you wanna check and write `:Inspect`
