@@ -1,4 +1,4 @@
 lua << EOF
-local ring0dark = require("ring0dark")
-ring0dark.setup({})
+local ring0light = require("ring0light")
+ring0light.setup({})
 EOF
