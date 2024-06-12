@@ -17,6 +17,7 @@ theme.set_highlights = function()
 	hl(0, "TelescopeSelection", { fg = c.fg, bg = c.gray, italic = true })
 	hl(0, "CursorLine", { fg = "NONE", bg = c.gray, italic = true })
 	hl(0, "StatusLine", { fg = c.fg, bg = c.gray, italic = true })
+	hl(0, "Visual", { fg = c.fg, bg = c.dark_gray, italic = true })
 
 	-- special words
 	hl(0, "Comment", { fg = c.brown, bg = "NONE", italic = true })

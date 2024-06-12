@@ -4,6 +4,7 @@ local colors = {
 	bg_darker = "#e6e9ef",
 	white = "#ffffff",
 	gray = "#dce0e8",
+	dark_gray = "#acb0be"
 	green = "#40a02b",
 	red = "#d20f39",
 	yellow = "#df8e1d",
