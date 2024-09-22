@@ -15,7 +15,7 @@ local colors = {
 	purple = "#7287fd",
 	magenta = "#ea76cb",
 
-	main = "#8839ef",
+	main = "#000000",
 }
 
 return colors
